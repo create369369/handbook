@@ -88,7 +88,7 @@ technical:
   - term: private instance
     definition: Self-hosted customer instance that does not share telemetry data (to be enforced via license tagging); does allow outbound network requests.
   - term: airgapped code host
-    definition: A code host that is physically isolated from the internet. For example, the code host is deployed on hardware (server) that is within the customers' office/private data center and the only way to connect to this code host is to be physically connected to this air-gapped network; a user has to be within the office and be connected to the air-gapped office network via ethernet cable of wi-fi.
+    definition: A code host that is physically isolated from the internet. For example, the code host is deployed on hardware (server) that is within the customers' office/private data center and the only way to connect to this code host is to be physically connected to this air-gapped network; a user has to be within the office and be connected to the air-gapped office network via ethernet cable or wi-fi.
   - term: private code host
     definition: A code host deployed in a private network (for example AWS EC2 instance within VPC).
   - term: public code host
